@@ -1,5 +1,5 @@
 # VaingloryScripts
-Two scripts generate hero stats comparison charts in Vainglory.
+Two scripts that generate hero stats comparison charts in Vainglory.
 
 GetHeroInfo.py, written in Python, retrieves hero stats from the Vainglory website (www.vainglorygame.com), processes the data, then writes the formatted information to HeroStats.txt.
 

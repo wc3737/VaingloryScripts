@@ -38,7 +38,6 @@ numStats = length(stats(1,:));
 predefinedColors = [1,0,0;0,1,0;0,0,1;1,1,0;0,1,1;1,0,1;1,1,1];
 colors = min(0.1+rand(numHeroes,3),1);
 predefColorAssignments = randperm(numHeroes);
-predefColorAssignments(1:length(predefinedColors))
 colors(predefColorAssignments(1:length(predefinedColors)),:) = predefinedColors;
 
 % Plot growable stats as line graphs

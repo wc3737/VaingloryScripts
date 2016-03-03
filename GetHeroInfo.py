@@ -22,7 +22,7 @@ heroesList = dom.xpath(HEROES_LIST_XPATH)
 
 heroNames = []
 for hero in heroesList:
-	heroNames.append(hero.text_content())
+    heroNames.append(hero.text_content())
 heroNames.sort()
 
 heroProfiles = {}
