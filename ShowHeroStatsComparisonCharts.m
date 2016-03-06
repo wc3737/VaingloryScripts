@@ -116,7 +116,7 @@ for j = numStats-1:numStats
     fig = figure;
     whitebg(fig, 'k')
     set(fig,'Position', [5 5 GRAPH_WIDTH GRAPH_HEIGHT]);
-    title(['Vainglory ' num2str(VERSION) ' Hero ', titles{i}, ...
+    title(['Vainglory ' num2str(VERSION) ' Hero ', titles{j}, ...
         ' Comparison Graph \fontsize{10}by k3tchup'], 'FontSize', 15)
     hold on
     maxVal = -inf;
